@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+        <title>Petruccinator3000</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="vertical-timeline.css">
+        <link rel="stylesheet" href="main_style.css">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.15/svg.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
+    </head>
+    <body id="bd"style="overflow-y: hidden;">
+        <div id="main"> 
+            <section id="greeting_screen" class="info">
+            </section>
+            <section id="description_screen" class="info container">
+                <h2>Description</h2>
+                <div class="row">
+                    <p class="description col-12 col-sm-4" data-aos="fade-down-right">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus cras adipiscing enim eu turpis. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. In nulla posuere sollicitudin aliquam ultrices sagittis orci a.
+                    </p>
+                    <span class="col-0 col-sm-4"></span>
+                    <object id="penta" class="d-none d-sm-block col-sm-4" type="image/svg+xml" data="penta.svg" data-aos="fade-down-left"></object>
+                </div>
+                <div class="row">
+                    <object id="eur" class="col-sm-4 d-none d-sm-block" type="image/svg+xml" data="Obj1.svg" data-aos="fade-up-right"></object>
+                    <span class="d-none d-sm-block col-sm-4">
+                    </span>
+                    <object id="soviet" class="d-none d-sm-block col-sm-4" type="image/svg+xml" data="Obj2.svg" data-aos="fade-up-left"></object>
+                </div>
+            </section>
+            <section id="projects_screen" class='info'>
+                <h2>Projects</h2>
+                <div class="row">
+                    <section class="projects col-12 col-sm-5" data-aos="fade-right">
+                        <h3>Development</h3>
+                        <div id="myTimeline">
+                            <div data-vtdate="2020">
+                                <a href="https://www.random-tonality.ml">RandomTonality</a>
+                            </div>
+                            <div data-vtdate="2019">
+                                <a href="https://www.geometry-theorems.ml">Geometry Theorems (in Russian)</a>
+                            </div>
+                        </div>
+                    </section>
+                    <span class="col-2">
+
+                    </span>
+                    <section class="projects col-12 col-sm-5" data-aos="fade-left">
+                        <h3>Guitar Werks</h3>
+                        <p id="guitar_holder">
+                            None at the moment
+                        </p>
+                    </section>
+                </div>
+            </section>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="vertical-timeline.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
