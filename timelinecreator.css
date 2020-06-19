@@ -1,0 +1,49 @@
+:root {
+    --timeline-color: black;
+}
+.time-line {
+    position: relative;
+    padding:2rem;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.time-point {
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.time-line:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background: var(--timeline-color);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+.time-content {
+    display:flex;
+    flex-flow: column;
+}
+.time-content p {
+    margin: 0;
+}
+.point-of-time {
+    width: 30px !important;  
+    height: 30px !important;
+    border-radius: 50%;
+    background-color: var(--timeline-color);
+    margin:0 8px;
+}
+.time-year {
+    border: var(--timeline-color) 3px dashed;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    margin-top:4px;
+}

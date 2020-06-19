@@ -1,9 +1,9 @@
 AOS.init();
-$('#myTimeline').verticalTimeline({
-    startLeft:false,
-    alternate: false,
-    arrows:false
-});
+createTimeline({
+  name:document.getElementById("myTimeline"),
+  color: 'white',
+  alternate: true
+})
 let width=window.innerWidth
 let height=window.innerHeight
 let widthHalf=width/2

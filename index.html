@@ -6,7 +6,7 @@
         <title>Petruccinator3000</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="vertical-timeline.css">
+        <link rel="stylesheet" type="text/css" href="timelinecreator.css">
         <link rel="stylesheet" href="main_style.css">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.0.15/svg.min.js"></script>
@@ -35,23 +35,32 @@
             <section id="projects_screen" class='info'>
                 <h2>Projects</h2>
                 <div class="row">
-                    <section class="projects col-12 col-sm-5" data-aos="fade-right">
+                    <section class="projects col-12 col-sm-7" data-aos="fade-right">
                         <h3>Development</h3>
-                        <div id="myTimeline">
-                            <div data-vtdate="2020">
-                                <a href="https://github.com/petruccinator3000/timelinegenerator">TimelineGenerator</a>
+                        <div id="myTimeline" class="time-line">
+                            <div class="time-year">
+                                2020
                             </div>
-                            <div data-vtdate="2020">
-                                <a href="https://www.random-tonality.ml">RandomTonality</a>
+                            <div class="time-point">
+                                <div class="time-content">
+                                    <a href="https://github.com/petruccinator3000/timelinegenerator" class="time-text">TimelineGenerator</a>
+                                </div>
                             </div>
-                            <div data-vtdate="2019">
-                                <a href="https://www.geometry-theorems.ml">Geometry Theorems (in Russian)</a>
+                            <div class="time-point">
+                                <div class="time-content">
+                                    <a href="https://www.random-tonality.ml" class="time-text">RandomTonality</a>
+                                </div>
+                            </div>
+                            <div class="time-year">
+                                2019
+                            </div>
+                            <div class="time-point">
+                                <div class="time-content" id="test">
+                                    <a href="https://www.geometry-theorems.ml"class="time-text">Geometry<br> Theorems <br> (in Russian)</a>
+                                </div>
                             </div>
                         </div>
                     </section>
-                    <span class="col-2">
-
-                    </span>
                     <section class="projects col-12 col-sm-5" data-aos="fade-left">
                         <h3>Guitar Werks</h3>
                         <p id="guitar_holder">
@@ -61,8 +70,7 @@
                 </div>
             </section>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="vertical-timeline.min.js"></script>
+        <script src="timelinecreator.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
