@@ -1,0 +1,22 @@
+{
+  "name": "@petruccinator3000/petruccinator3000.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petruccinator3000/petruccinator3000.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@petruccinator3000/timelinegenerator": "0.1.0"
+  },
+  "bugs": {
+
+    "url": "https://github.com/petruccinator3000/petruccinator3000.github.io/issues"
+  },
+  "homepage": "https://github.com/petruccinator3000/petruccinator3000.github.io#readme"
+}
+  
