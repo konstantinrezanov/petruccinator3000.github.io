@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petruccinator3000/petruccinator3000.github.io.git"
@@ -13,7 +14,9 @@
     "@petruccinator3000/timelinegenerator": "0.1.0"
   },
   "bugs": {
+
     "url": "https://github.com/petruccinator3000/petruccinator3000.github.io/issues"
   },
   "homepage": "https://github.com/petruccinator3000/petruccinator3000.github.io#readme"
 }
+  
