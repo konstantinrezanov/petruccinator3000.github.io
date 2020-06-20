@@ -1,0 +1,11 @@
+{
+  "name": "@petruccinator3000/petruccinator3000.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "main.js",
+  "author": "petruccinator 3000",
+  "license": "MIT",
+  "dependencies": {
+    "@petruccinator3000/timelinegenerator": "0.1.0"
+  }
+}
